@@ -24,7 +24,8 @@ namespace MyWebapi.Controllers
         Users[] users = new Users[]
         {
             new Users { Id=1,Name="chenxuan",Email="chensamsam@163.com"},
-            new Users { Id=2,Name="chenxiaosi",Email="chensamsam@163.com"}
+            new Users { Id=2,Name="chenxiaosi",Email="chensamsam@163.com"},
+            new Users { Id=3,Name="chensam",Email="chensamsam@163.com"}
         };
 
         public HttpResponseMessage GetUsers()
